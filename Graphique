@@ -1,0 +1,12 @@
+import matplotlib.pyplot as plt
+import numpy as np
+from math import cos,pi,exp
+plt.clf()
+X=np.linspace(-10,10,1000)
+Y=[cos(t) for t in X]
+plt.plot( X, Y, label="cos X", color="red")
+plt.title("Courbe du cosinus")
+plt.show()
+plt.legend()
+plt.xlabel("abscisse")
+plt.ylabel("ordonnéeé")
