@@ -1,0 +1,7 @@
+import matplotlib.pyplot as plt
+import numpy as np
+from math import cos,sin,pi
+x= [2,4,5,7,8]
+y= [4,7,9,14,18]
+width=1.0
+plt.bar(y,x,width)
